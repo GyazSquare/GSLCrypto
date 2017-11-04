@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.user_target_xcconfig = {
     'HEADER_SEARCH_PATHS' => '$(inherited) $(PODS_ROOT)/GSLCrypto/CommonCrypto'
   }
-  s.moduele_name = 'GSL'
+  s.module_name = 'GSL'
   s.source_files = 'GSLCrypto/*.{h,m}'
   s.preserve_path = 'CommonCrypto/module.modulemap'
 end
