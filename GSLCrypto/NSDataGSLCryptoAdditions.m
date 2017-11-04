@@ -134,7 +134,7 @@ static NSError * __GSLErrorWithCryptoStatus(CCCryptorStatus status) {
 
 #pragma mark - Class extensions
 
-- (nullable NSData *)gsl_cryptedDataWithOperation:(CCOperation)operation usingAlgorithm:(GSLCryptoAlgorithm)algorithm options:(GSLCryptoOptions)options key:(nullable NSData *)key initializationVector:(nullable NSData *)initializationVector error:(NSError **)error {
+- (nullable NSData *)gsl_cryptedDataWithOperation:(CCOperation)operation usingAlgorithm:(GSLCryptoAlgorithm)algorithm options:(GSLCryptoOptions)options key:(nullable NSData *)key initializationVector:(nullable NSData *)initializationVector error:(NSError * __autoreleasing *)error {
     __block NSData *cryptedData = nil;
     __block CCCryptorRef cryptor = NULL;
     __block CCCryptorStatus status = kCCSuccess;
