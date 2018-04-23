@@ -2,12 +2,12 @@
 
 [![Build Status](https://travis-ci.org/GyazSquare/GSLCrypto.svg?branch=master)](https://travis-ci.org/GyazSquare/GSLCrypto)
 
-GSLCrypto is a simple Objective-C digest library for iOS, OS X, watchOS and tvOS, which is based on the libSystem Common Crypto library.
+GSLCrypto is a simple Objective-C digest library for iOS, macOS, watchOS and tvOS, which is based on the libSystem Common Crypto library.
 
 ## Requirements
 
-* Xcode 9.2 or later
-* Base SDK: iOS 11.2 / OS X 10.13.2 / watchOS 4.2 / tvOS 11.2 or later
+* Xcode 9.3 or later
+* Base SDK: iOS 11.3 / macOS 10.13.4 / watchOS 4.3 / tvOS 11.3 or later
 * Deployment Target: iOS 8.0 / OS X 10.6 / watchOS 2.0 / tvOS 9.0 or later
 
 ## Installation
