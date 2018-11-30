@@ -3,13 +3,9 @@
 //  GSLCrypto
 //
 
-@import Foundation.NSData;
-
-#ifdef COCOAPODS
-@import CommonCrypto;
-#else
 #include <CommonCrypto/CommonCrypto.h>
-#endif
+
+@import Foundation.NSData;
 
 NS_ASSUME_NONNULL_BEGIN
 
