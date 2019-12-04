@@ -116,7 +116,7 @@ static NSError * __GSLErrorWithCryptoStatus(CCCryptorStatus status) {
             break;
     }
     unsigned char data[length];
-    CCHmac(algorithm, key.bytes, key.length, self.bytes, self.length, data);
+    CCHmac((CCHmacAlgorithm)algorithm, key.bytes, key.length, self.bytes, self.length, data);
     return [NSData dataWithBytes:data length:length];
 }
 
@@ -150,7 +150,7 @@ static NSError * __GSLErrorWithCryptoStatus(CCCryptorStatus status) {
         }
         return cryptedData;
     };
-    status = CCCryptorCreate(operation, algorithm, options, key.bytes, key.length, initializationVector.bytes, &cryptor);
+    status = CCCryptorCreate(operation, (CCAlgorithm)algorithm, (CCOptions)options, key.bytes, key.length, initializationVector.bytes, &cryptor);
     if (status != kCCSuccess) {
         return finallyBlock();
     }

@@ -150,7 +150,7 @@
 		D70D229A1AA2DC280050CD26 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1120;
 				TargetAttributes = {
 					D70D22A11AA2DC280050CD26 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -162,7 +162,7 @@
 			};
 			buildConfigurationList = D70D229D1AA2DC280050CD26 /* Build configuration list for PBXProject "GSLCrypto" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
