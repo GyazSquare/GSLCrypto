@@ -1,6 +1,6 @@
 # GSLCrypto
 
-[![Build Status](https://travis-ci.org/GyazSquare/GSLCrypto.svg?branch=master)](https://travis-ci.org/GyazSquare/GSLCrypto)
+[![Build Status](https://travis-ci.com/GyazSquare/GSLCrypto.svg?branch=master)](https://travis-ci.com/GyazSquare/GSLCrypto)
 
 GSLCrypto is a simple Objective-C digest library for iOS, macOS, watchOS and tvOS, which is based on the libSystem Common Crypto library.
 
