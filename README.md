@@ -6,9 +6,9 @@ GSLCrypto is a simple Objective-C digest library for iOS, macOS, watchOS and tvO
 
 ## Requirements
 
-* Xcode 11.2 or later
-* Base SDK: iOS 13.2 / macOS 10.15 / watchOS 6.1 / tvOS 13.2 or later
-* Deployment Target: iOS 8.0 / OS X 10.6 / watchOS 2.0 / tvOS 9.0 or later
+* Xcode 12.0 or later
+* Base SDK: iOS 14.0 / macOS 10.15 / watchOS 7.0 / tvOS 14.0 or later
+* Deployment Target: iOS 6.0 / OS X 10.6 / watchOS 2.0 / tvOS 9.0 or later
 
 ## Installation
 
